@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Yamaha") (type "KiCad") (uri "/home/terraria/.local/share/kicad/10.0/footprints/Yamaha.pretty") (options "") (descr ""))
+)

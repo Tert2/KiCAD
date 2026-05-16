@@ -1,0 +1,186 @@
+** Drc report for ammeter.kicad_pcb **
+** Created on 2026-05-11T20:45:33 **
+** Report includes: Errors **
+
+** Found 41 DRC violations **
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(126.3000 mm, 86.3500 mm): パッド SH [GND] - J1 ( F.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(143.8400 mm, 97.0000 mm): パッド 7 [GND] - U5 ( B.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(149.0750 mm, 84.9250 mm): パッド 1 [GND] - SW1 ( B.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(144.9250 mm, 84.9250 mm): パッド 2 [GND] - SW1 ( B.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(144.4250 mm, 94.5100 mm): パッド B12 [GND] - J3 ( F.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(144.4250 mm, 88.1100 mm): パッド B1 [GND] - J3 ( F.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(144.4250 mm, 88.1100 mm): パッド A12 [GND] - J3 ( F.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー B.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(126.3900 mm, 97.7500 mm): パッド SH [GND] - J2 ( B.Cu 上)
+[starved_thermal]: ゾーンへのサーマルリリーフ接続が不完全 (レイヤー F.Cu; ゾーン 最小スポーク数: 2; 現状 1)
+    Local override; error
+    @(125.0000 mm, 84.5000 mm): ゾーン 'GND' [GND] F.Cu と B.Cu 上, 優先度 0
+    @(144.4250 mm, 94.5100 mm): パッド A1 [GND] - J3 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.3000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(125.0000 mm, 85.0000 mm): セグメント (Edge.Cuts 上)
+    @(126.3000 mm, 96.5700 mm): パッド SH [GND] - J1 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.3000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(125.0000 mm, 85.0000 mm): セグメント (Edge.Cuts 上)
+    @(126.3000 mm, 86.3500 mm): パッド SH [GND] - J1 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.0700 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(148.9300 mm, 86.2000 mm): パッド SH [GND] - J3 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.0700 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(148.9300 mm, 96.4200 mm): パッド SH [GND] - J3 ( F.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.3500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(149.4000 mm, 88.4000 mm): パッド 1 [GND] - C1 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.4500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(149.5000 mm, 84.5000 mm): セグメント (Edge.Cuts 上)
+    @(130.4000 mm, 85.2000 mm): パッド 2 [GND] - C12 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.4500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(149.5000 mm, 84.5000 mm): セグメント (Edge.Cuts 上)
+    @(129.2000 mm, 85.2000 mm): パッド 1 [VBUS] - C12 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.3500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(149.4000 mm, 89.2000 mm): パッド 2 [+3V3] - R1 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.4000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(149.0750 mm, 84.9250 mm): パッド 1 [GND] - SW1 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.1000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(149.5000 mm, 84.5000 mm): セグメント (Edge.Cuts 上)
+    @(144.9250 mm, 84.9250 mm): パッド 2 [GND] - SW1 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.4000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(150.0000 mm, 98.5000 mm): セグメント (Edge.Cuts 上)
+    @(149.0750 mm, 87.0750 mm): パッド 3 [/sw1] - SW1 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.2500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(125.5000 mm, 99.0000 mm): セグメント (Edge.Cuts 上)
+    @(136.6100 mm, 97.7500 mm): パッド SH [GND] - J2 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.2500 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(125.5000 mm, 99.0000 mm): セグメント (Edge.Cuts 上)
+    @(126.3900 mm, 97.7500 mm): パッド SH [GND] - J2 ( B.Cu 上)
+[copper_edge_clearance]: 基板端クリアランス違反 (基板の設定の基板端の制約 クリアランス 0.5000 mm; 現状 0.3000 mm)
+    Rule: 基板の設定の基板端の制約; error
+    @(125.0000 mm, 85.0000 mm): セグメント (Edge.Cuts 上)
+    @(126.3900 mm, 93.8200 mm): パッド SH [GND] - J2 ( B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(130.8050 mm, 88.2600 mm): パッド B12 [GND] - J1 ( F.Cu 上)
+    @(129.7300 mm, 88.5700 mm): J1のNPTHパッド
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1700 mm)
+    Local override; error
+    @(127.4000 mm, 92.0000 mm): パッド 2 [+3V3] - L1 ( B.Cu 上)
+    @(128.3000 mm, 93.2450 mm): パッド A12 [GND] - J2 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1700 mm)
+    Local override; error
+    @(127.4000 mm, 92.0000 mm): パッド 2 [+3V3] - L1 ( B.Cu 上)
+    @(128.3000 mm, 93.2450 mm): パッド B1 [GND] - J2 ( B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(130.8050 mm, 94.6600 mm): パッド B1 [GND] - J1 ( F.Cu 上)
+    @(129.7300 mm, 94.3500 mm): J1のNPTHパッド
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(130.8050 mm, 94.6600 mm): パッド A12 [GND] - J1 ( F.Cu 上)
+    @(129.7300 mm, 94.3500 mm): J1のNPTHパッド
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(130.8050 mm, 88.2600 mm): パッド A1 [GND] - J1 ( F.Cu 上)
+    @(129.7300 mm, 88.5700 mm): J1のNPTHパッド
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(134.9000 mm, 91.4000 mm): パッド 10 [+3V3] - U4 ( B.Cu 上)
+    @(134.9000 mm, 90.9000 mm): パッド 9 [/Rx] - U4 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(134.9000 mm, 90.9000 mm): パッド 9 [/Rx] - U4 ( B.Cu 上)
+    @(134.9000 mm, 90.4000 mm): パッド 8 [/Tx] - U4 ( B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(144.4250 mm, 94.5100 mm): パッド B12 [GND] - J3 ( F.Cu 上)
+    @(145.5000 mm, 94.2000 mm): J3のNPTHパッド
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(134.9000 mm, 90.4000 mm): パッド 8 [/Tx] - U4 ( B.Cu 上)
+    @(134.9000 mm, 89.9000 mm): パッド 7 [+3V3] - U4 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(134.9000 mm, 89.9000 mm): パッド 7 [+3V3] - U4 ( B.Cu 上)
+    @(134.9000 mm, 89.4000 mm): パッド 6 [/#DTR] - U4 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(130.7000 mm, 89.4000 mm): パッド 5 [unconnected-(U4-~{CTS}-Pad5)] - U4 ( B.Cu 上)
+    @(130.7000 mm, 89.9000 mm): パッド 4 [/#RTS] - U4 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(130.7000 mm, 89.9000 mm): パッド 4 [/#RTS] - U4 ( B.Cu 上)
+    @(130.7000 mm, 90.4000 mm): パッド 3 [GND] - U4 ( B.Cu 上)
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(130.7000 mm, 90.4000 mm): パッド 3 [GND] - U4 ( B.Cu 上)
+    @(130.7000 mm, 90.9000 mm): パッド 2 [/D-] - U4 ( B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(144.4250 mm, 88.1100 mm): パッド B1 [GND] - J3 ( F.Cu 上)
+    @(145.5000 mm, 88.4200 mm): J3のNPTHパッド
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(144.4250 mm, 88.1100 mm): パッド A12 [GND] - J3 ( F.Cu 上)
+    @(145.5000 mm, 88.4200 mm): J3のNPTHパッド
+[clearance]: クリアランス違反 ( クリアランス 0.2000 mm; 現状 0.1500 mm)
+    Local override; error
+    @(130.7000 mm, 90.9000 mm): パッド 2 [/D-] - U4 ( B.Cu 上)
+    @(130.7000 mm, 91.4000 mm): パッド 1 [/D+] - U4 ( B.Cu 上)
+[hole_clearance]: 穴のクリアランス違反 (基板の設定の穴の制約 クリアランス 0.2500 mm; 現状 0.1944 mm)
+    Rule: 基板の設定の穴の制約; error
+    @(144.4250 mm, 94.5100 mm): パッド A1 [GND] - J3 ( F.Cu 上)
+    @(145.5000 mm, 94.2000 mm): J3のNPTHパッド
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.1000 mm, 93.2450 mm): パッド B4 [Net-(J2-VBUS-PadA4)] - J2 ( B.Cu 上)
+    @(133.9000 mm, 93.2450 mm): パッド A4 [Net-(J2-VBUS-PadA4)] - J2 ( B.Cu 上)
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
