@@ -211,7 +211,6 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
         0.4,
         0.5,
         0.6,
@@ -506,7 +505,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ammeter2.kicad_pro",
+    "filename": "rp2354b.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -542,7 +541,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "rp2354b_gbr/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -654,6 +653,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,18 +668,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ammeter2.kicad_sch",
-        "name": "ルート",
-        "uuid": "62b8602e-c8ad-4ca7-a48d-8333e5d7a0dc"
+        "filename": "rp2354b.kicad_sch",
+        "name": "rp2354b",
+        "uuid": "66e70498-a583-4429-885c-67a9c6f9cb67"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR7",
     "variants": []
   },
   "sheets": [
     [
-      "62b8602e-c8ad-4ca7-a48d-8333e5d7a0dc",
-      "ルート"
+      "66e70498-a583-4429-885c-67a9c6f9cb67",
+      "rp2354b"
     ]
   ],
   "text_variables": {},
