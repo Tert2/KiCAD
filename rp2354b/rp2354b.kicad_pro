@@ -543,6 +543,7 @@
       "netlist": "",
       "plot": "rp2354b_gbr/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""

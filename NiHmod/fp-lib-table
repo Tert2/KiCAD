@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NiHmod")(type "KiCad")(uri "${KIPRJMOD}/NiHmod.pretty")(options "")(descr "NiHmod project footprints"))
+)
